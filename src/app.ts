@@ -1,8 +1,11 @@
+import dotenv from 'dotenv';
 import express, { Request, Response } from 'express';
 import hbs from 'hbs';
 
+dotenv.config();
+
 const app = express();
-const port: number = 8080;
+const port = process.env.PORT || 8081;
 const path: string = __dirname.split('/dist')[0];
 
 // Handlebars
