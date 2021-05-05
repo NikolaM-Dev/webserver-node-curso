@@ -1,0 +1,25 @@
+{
+  "name": "06-webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/app.js",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/hbs": "^4.0.1",
+    "@types/node": "^15.0.1",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.4"
+  }
+}
